@@ -14,7 +14,6 @@ const resultSpesaDue = document.getElementById("resultSpesaDue")
 let ul = document.createElement("ul")
 resultSpesaDue.appendChild(ul)
 i = 0
-let result;
 while (i < listaSpesa.length) {
     let li = document.createElement("li")
     li.append(listaSpesa[i])
